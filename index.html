@@ -1,0 +1,16 @@
+<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+<link rel="import" href="x-modal-close-session.html">
+
+<x-modal-close-session></x-modal-close-session>
+
+<button onclick="doOpen();">click to open</button>
+
+<script>
+
+  function doOpen() {
+    var el = document.querySelector('x-modal-close-session');
+    el.open();
+  }
+
+</script>

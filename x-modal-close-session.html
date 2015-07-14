@@ -1,0 +1,36 @@
+<link rel="import" href="x-modal-session-info.html">
+
+<dom-module id="x-modal-close-session">
+
+  <template>
+
+    <template is="dom-if" if="{{hasTrackedTime}}">
+      <x-modal-session-info opened={{opened}}></x-modal-session-info>
+    </template>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: "x-modal-close-session",
+
+    properties: {
+
+      hasTrackedTime: {
+        type: Boolean,
+        value: true
+      }
+
+    },
+
+    open: function() {
+      this.set('opened', true);
+    }
+
+  });
+
+</script>

@@ -1,0 +1,34 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+
+<dom-module id="x-modal-session-info">
+
+  <template>
+
+      <paper-dialog modal opened="{{opened}}">
+        <paper-button dialog-dismiss>Close</paper-button>
+      </paper-dialog>
+
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'x-modal-session-info',
+
+    properties: {
+
+      opened: {
+        type: Boolean,
+        value: false,
+        notify: true
+      }
+    }
+//
+  });
+
+</script>

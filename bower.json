@@ -1,0 +1,12 @@
+{
+  "name": "paper-dialog-12",
+  "version": "0.0.0",
+  "authors": [
+    "Yvonne Yip <ykyyip@google.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "paper-dialog": "PolymerElements/paper-dialog#^1.0.0",
+    "paper-button": "PolymerElements/paper-button#^1.0.0"
+  }
+}
